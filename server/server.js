@@ -10,6 +10,10 @@ const passport = require('./strategies/user.strategy');
 
 // Route includes
 const userRouter = require('./routes/user.router');
+const controlsRouter = require('./routes/controls.router');
+const dashRouter = require('./routes/dash.router');
+const dataRouter = require('./routes/data.router');
+const plantRegistrationRouter = require('./routes/plant.registration.router');
 
 // Body parser middleware
 app.use(bodyParser.json());
